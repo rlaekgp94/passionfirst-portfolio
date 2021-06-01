@@ -116,6 +116,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
+      <!-- skill mobile-tablet -->
     </div>
   </div>
 </template>
