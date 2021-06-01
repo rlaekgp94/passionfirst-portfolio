@@ -265,6 +265,23 @@ export default {
       }
     }
   }
+
+  // pagination
+  .swiper-wrapper {
+    :global(.swiper-pagination-bullet) {
+      background-color: rgba(110, 110, 110, 0.85);
+      width: 16px;
+      height: 16px;
+    }
+    :global(.swiper-pagination-bullet-active) {
+      background: rgb(110, 110, 110);
+    }
+  }
+
+  .swiper-pagination {
+    text-align: right; //right 수정해야함
+    top: -90px;
+  }
 }
 
 // mobile
@@ -291,6 +308,11 @@ export default {
         }
       }
     }
+  }
+
+  .swiper-pagination {
+    text-align: right; //right 수정해야함
+    top: -70px;
   }
 }
 </style>
